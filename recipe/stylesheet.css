@@ -1,18 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
-
+html{
+  text-align: center;
+}
 h1{
     font-family: "Jacques Francois Shadow", serif;
     font-weight: 400;
+    font-size: 3rem;
+    font-style: normal;
+}
+img{
+  border-color:rgb(255, 198, 128);
+border-radius: 100px;
+max-width: 100%;
+
 }
 body {
-    background-color: blanchedalmond;
-    font-size: larger;
+    background-color: rgb(248, 212, 158);
+    font-size: 1.3rem;
     font-family: "ABeeZee", sans-serif;
   font-weight: 400;
   font-style: normal;
     text-transform: capitalize;
-    width: 75%;
-    line-height: 1.5em;
+    border: solid 15px rgb(255, 198, 128);
+    margin: 0;
 }
+
+p {
+  line-height: 1.5em; /* 1.5 x 16 = 24px */
+  font-size: 1.3rem;
+}
+li{
+  margin-bottom: 1em;
+   /* twice the font size of this element*/
+}
+ul {
+  list-style-position: inside; 
+  text-align: left; 
+  display: inline-block; }
+
+  ol{
+      list-style-position: inside; 
+      text-align: left; 
+      display: inline-block;
+  }
