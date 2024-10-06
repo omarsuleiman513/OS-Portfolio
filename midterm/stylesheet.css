@@ -1,0 +1,24 @@
+
+main {
+    padding: 20px;
+}
+
+.col-left, .col-right {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-left {
+    margin-right: 5%;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #155602;
+    color: white;
+    height: fit-content;
+}
+
+
