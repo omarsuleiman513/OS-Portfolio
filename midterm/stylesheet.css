@@ -5,26 +5,42 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 main {
-    padding: 4em;
+    padding: 2.3em;
+    padding-bottom: 4em;
 }
 
-.col-left, .col-right {
-    width: 45%;
+.col-right {
+    /*width: 45%;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: top;*/
+    float: right;
+    width: 40%;
 }
 
 .col-left {
+    float: left;
+    width: 40%;
+    /*
     margin-right: 5%;
-   padding-bottom: 100px;
+   padding-bottom: 100px;*/
 }
-
+/*
 footer {
     text-align: center;
     padding: 20px;
     background-color: #0B4C00;
     color: white;
     height: fit-content
+}*/
+footer {
+    clear: both;
+    font-size: smaller;
+    background-color: #0B4C00;
+    padding: 1.5em;
+    width: 100%; 
+    position: relative;
+    height: fit-content;
+    margin-top: 13%; 
 }
 header { 
     padding-right: 4em;
@@ -35,6 +51,7 @@ header {
 background-position: top right;
 background-color: rgb(0, 0, 0);
 color:  rgb(255, 255, 255);
+
 
 
 }
@@ -97,5 +114,39 @@ h2{
 }
 p, h2 { 
     margin: 1rem 0;
-  line-height: 1.5em; 
+  line-height: 1.7em; 
+}
+
+.episodes{
+  display: flex;
+flex-wrap: wrap;
+
+}
+.card{
+  width: 23%;
+border: solid 1px #0B4C00;
+  margin-right: 1.8%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #0B4C00;
+  margin-bottom: 1em;
+
+}
+.card:last-child{
+    margin-right: 0% ;
+    }
+.card img {
+    width: 100%;
+ 
+}
+.card h4{
+    line-height: 2em;
+    height: 3em;
+    
+}
+.card p{
+    text-align:center;
+    
+    font-size:medium;
+    
+    
 }
