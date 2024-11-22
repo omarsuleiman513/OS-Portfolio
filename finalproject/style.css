@@ -1,38 +1,163 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Signika+Negative:wght@300..700&display=swap');
-body {  font-family: "Signika Negative", sans-serif;
+
+  @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Signika+Negative:wght@300..700&display=swap');
+
+body {  
+    font-family: "Signika Negative", sans-serif;
     font-size: 1em;
     line-height: 1.5em;
-margin: 0.5em;
-
-
+    margin: 0;
+    padding: 0;
 }
-h2 ,h3 ,h4, p {
+
+h2, h3, h4, p {
     margin-bottom: 1em;
 }
 
 #wrapper {
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
     position: relative;
+    padding: 0 1em;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
 }
-#topMenu{
+
+#topMenu {
     display: none;
     position: absolute;
-    background-color: rgb(255, 221, 0);
-    border:  solid 1px black;
+    background-color: #fff;
+    border: 1px solid #000;
     right: 0;
-    top: 30px;
-  padding: 3px;
-    
+    top: 3px;
+    padding: 0.5em;
+    z-index: 1000;
 }
-.dropdown{
+
+#topMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#topMenu li {
+    margin: 10em 0;
+}
+
+.programNav {
+    padding: 0.5em;
+    background-color: #0073e6;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.programNav li a { 
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown {
     display: none;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    z-index: 100;
+    border-radius: 5px;
 }
-.programNav li:hover .dropdown {
+
+.programNav li:hover .dropdown { 
+    display: block;  
+}
+
+.dropdown li {
+    margin: 0;
+}
+
+.dropdown li a {
+    color: #0073e6;
+    padding: 0.5em;
     display: block;
+}
+
+/****** Banner Styles ******/
+.banner {
+    padding: 2em;
+    background: url("/finalproject/images/queenscollegepic.jpg") no-repeat center top/cover;
+    text-align: center;
+    color: white;
+}
+
+.banner h3 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1em;
+    font-size: 2rem;
+    line-height: 1.4em;
+}
+
+.banner h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #0073e6;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #0073e6;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.btn:hover {
+    background-color: #0073e6;
+    color: white;
+}
+
+/****** Typography Styles ******/
+h2 { 
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0073e6;
+}
+
+#logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.search{
+margin-left: 1em;
+
+}
+/****** Media Queries ******/
+@media (min-width: 768px) {
+    .menu {  
+        display: none;
+    }
+    #topMenu {
+        display: flex;
+        border: none;
+        position: static;
+        padding: 0;
+    }
+    #topMenu ul {
+        display: flex;
+        gap: 1em;
+    }
+    #topMenu li {
+        margin: 0;
+    }
+    .programNav {
+        display: flex;
+        justify-content: space-between;
+    }
 }

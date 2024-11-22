@@ -4,91 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design@CUNY</title>
-    <link rel = "stylesheet" href = "reset.css">
-    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="wrapper">
         <header>
-            <h1>Design @CUNY</h1>
-            <img src="images/menu.svg" alt="menu" class="menu">
-            <nav id="topMenu"><ul>
-                <li><a href = "https://www.cuny.edu/about/" >About CUNY</a></li>
-                <li><a href = "https://www.cuny.edu/financial-aid/" ></a> Finacial Aid</li>
-                <li><a href = "https://www.cuny.edu/admissions/apply-to-cuny/" ></a>Apply</li>
-            </ul>
-        <form action="#" class ="search">
-            <input type="search">
-            <button>Search</button>
-        </form>
-        </nav>
-
+            <h1 id="logo">Design @CUNY</h1>
+            <img src="images/menu.svg" alt="Menu icon" class="menu">
+            <nav id="topMenu">
+                <ul>
+                    <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                    <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+                    <li><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Apply</a></li>
+                </ul>
+                <form action="#" class="search">
+                    <label for="search-input"></label>
+                    <input type="search" id="search-input" placeholder="Search programs...">
+                    <button>Search</button>
+                </form>
+            </nav>
         </header>
         <div class="searchProgram">
-            <h2></h2>
-            <p></p>
+            <h2>Explore Design Programs</h2>
+            <p>Find the program that fits your goals and interests.</p>
             <nav class="programNav">
                 <ul>
-                    <li><a href = "" >Discipline</a>
-                    <ul class="dropdown">
-                        <li> <a href="digital-design.html"></a>Digital Design</li>
-                        <li> <a href="animation.html"></a>Animation</li>
-                        <li> <a href="industrial-design.html"></a>Industrial Design</li>
-                    </ul></li>
-                    <li><a href = "" >Degree</a>
-                    <ul class="dropdown">
-                        <li><a href="">Associate</a></li>
-                        <li><a href="">Bachelor's</a></li>
-                    </ul></li>
-                    <li><a href = "#" >Borough</a>
-                    <li class="dropdown">
-                        <li><a href="brooklyn.html"></a>Brooklyn</li>
-                        <li><a href="bronx.html"></a>Bronx</li>
-                        <li><a href="manhattan.html"></a> Manhattan</li>
-                        <li><a href="queens.html"></a> Queens</li>
+                    <li>
+                        <a href="#">Discipline</a>
+                        <ul class="dropdown discipline-dropdown">
+                            <li><a href="digital-design.html">Digital Design</a></li>
+                            <li><a href="animation.html">Animation</a></li>
+                            <li><a href="industrial-design.html">Industrial Design</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Degree</a>
+                        <ul class="dropdown degree-dropdown">
+                            <li><a href="#">Associate</a></li>
+                            <li><a href="#">Bachelor's</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Borough</a>
+                        <ul class="dropdown borough-dropdown">
+                            <li><a href="#">Brooklyn</a></li>
+                            <li><a href="#">Bronx</a></li>
+                            <li><a href="#">Manhattan</a></li>
+                            <li><a href="#">Queens</a></li>
+                        </ul>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="banner">
-
-<h3> <a href="http://www1.cuny.edu/mu/forum/2018/02/07/queens-college-ranked-in-top-25-of-best-public-colleges-and-universities-for-graphic-design-in-the-nation/">Queens college ranked in top 25 of best public colleges and universities for graphic design in the nation </a></h3>
-<a class ="btn" href = "https://www.cuny.edu/admissions/apply-to-cuny/"> Apply</a>
-
-
+            <h3><a href="http://www1.cuny.edu/mu/forum/2018/02/07/queens-college-ranked-in-top-25-of-best-public-colleges-and-universities-for-graphic-design-in-the-nation/">Queens College Ranked in Top 25 for Graphic Design</a></h3>
+            <a class="btn" href="https://www.cuny.edu/admissions/apply-to-cuny/">Apply</a>
         </div>
         <main class="home">
             <section>
                 <h2>Design News</h2>
                 <article>
-                    <h2>CUNY TV Wins 21st New York Emmy Award For Animated Opening Sequence of ‘Shades of U.S.’ </h2>
-                    
-                        
-                       
-               <h3>    April 27, 2020</h3>
-                    <p> The City University of New York won two awards in the 63rd New York Emmy Awards, as CUNY TV and the New York City College of Technology each earned honors in Saturday’s ceremony. The award for CUNY TV brings to 21 the total number of Emmys the station has been awarded by the National Academy of Television Arts & Sciences New York Chapter.
-                    </p>
-                    <a href=""></a>
+                    <h3>CUNY TV Wins 21st New York Emmy Award</h3>
+                    <p>The City University of New York won two awards in the 63rd New York Emmy Awards, as CUNY TV and the New York City College of Technology each earned honors in Saturday’s ceremony...</p>
+                    <a href="#">Read More</a>
                 </article>
                 <article>
-                    <h2>CUNY Expands Digital Skills Curriculum and Creates Student Pipeline for Tech Jobs</h2>
-                    <h3>October 28, 2019</h3>
-                    <p>  The City University of New York has significantly expanded its digital skills curriculum as part of a broad-based effort to produce a steady pipeline of diverse, adaptable, critical thinkers who can thrive in a workplace environment that is increasingly reliant on advanced digital technologies across most sectors of the economy. Another aim of this initiative is to encourage traditionally underrepresented groups to take up tech-focused areas of study.</p>
-                    <a href=""></a>
+                    <h3>CUNY Expands Digital Skills Curriculum</h3>
+                    <p>The City University of New York has significantly expanded its digital skills curriculum to produce a steady pipeline of diverse, adaptable, critical thinkers...</p>
+                    <a href="#">Read More</a>
                 </article>
             </section>
             <section class="events">
                 <h2>Events</h2>
                 <article>
-                    <img src="" alt="">
-                    <h2>Virtual Digital Design Showcase Day</h2>
-                    <p>Date: June 18, 2020
-                        Time: 2:00 PM — 4:00 PM
-                        College: Bronx Community College</p>
+                    <img src="images/event-placeholder.jpg" alt="Virtual Digital Design Showcase Day">
+                    <h3>Virtual Digital Design Showcase Day</h3>
+                    <p>Date: June 18, 2020<br>Time: 2:00 PM — 4:00 PM<br>College: Bronx Community College</p>
                 </article>
             </section>
         </main>
-        <footer> &copy;Copyright 2023 The city university of new york</footer>
+        <footer>
+            <p>&copy; 2023 The City University of New York</p>
+            <nav>
+                <ul>
+                    <li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+                    <li><a href="https://www.cuny.edu/privacy-policy/">Privacy Policy</a></li>
+                </ul>
+            </nav>
+        </footer>
     </div>
 </body>
 </html>
