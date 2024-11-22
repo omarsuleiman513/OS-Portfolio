@@ -1,4 +1,4 @@
-/* General Reset */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,7 +11,7 @@ ul {
     padding: 0;
 }
 
-/* Menu Styling */
+
 .menu {
     width: 250px;
     background-color: #f8f9fa;
@@ -44,7 +44,7 @@ ul {
     color: #555;
 }
 
-/* Submenu Styling */
+
 .submenu {
     display: none;
     position: absolute;
@@ -71,12 +71,12 @@ ul {
     background-color: #f1f1f1;
 }
 
-/* Hover Interaction */
+
 .menu > li:hover .submenu {
     display: block;
 }
 
-/* Box-like Hover Effect for Main Menu */
+
 .menu > li:hover > a {
     background-color: #e9ecef;
     border-left: 4px solid #007bff;
