@@ -112,7 +112,7 @@ header {
 /****** Banner Styles ******/
 .banner {
     padding: 2em;
-    background: url("/finalproject/images/queenscollegepic.jpg") no-repeat center top/cover;
+    background: url("images/queenscollegepic.jpg") no-repeat center top/cover;
     text-align: center;
     color: white;
 }
