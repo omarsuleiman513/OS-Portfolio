@@ -1,0 +1,479 @@
+body{  background-color: #e4e2dd;
+}
+
+.heading-box {
+    background-color: #e4e2dd; /* Set background color */
+    color: #ffffff; /* Set text color */
+    padding: 30px; /* Set padding inside the box */
+    text-align: center; /* Center-align text */
+  }
+
+
+.heading-box img{
+    display: block;
+    margin: 0 auto;
+    max-width: 18%;
+    height:auto;
+}
+
+
+  
+  ul {
+    list-style: none;
+  }
+  
+  nav {
+    height: 40px;
+    margin: 40px auto;
+    background-color: #e4e2dd;
+    text-align: center;
+    border-radius: 1px;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  .main > li {
+    margin: 0 2%;
+  }
+  .main > li a{
+    border-left:1px solid #e4e2dd;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-family: url(rische-demo.otf);
+    display: block;
+    padding: 10px 15px;
+    font-size: 25px;
+    transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+ 
+  }
+  
+  a:hover {
+    background-color: #767575;
+  }
+  
+  .drop li {
+    opacity: 0;
+    transform-origin: top center;
+  }
+  
+  .drop li a {
+    background-color: rgba(142, 141, 141, 0.7);
+    padding: 10px 0;
+  }
+  
+
+  
+  .main li:hover .menu1 li:first-of-type {
+    animation: menu1 0.3s ease-in-out forwards;
+    animation-delay: 0.3s;
+  }
+  
+  .main li:hover .menu1 li:nth-of-type(2) {
+    animation: menu1 0.3s ease-in-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  .main li:hover .menu1 li:nth-of-type(3) {
+    animation: menu1 0.3s ease-in-out forwards;
+    animation-delay: 0.9s;
+  }
+  
+  .main li:hover .menu1 li:last-of-type {
+    animation: menu1 0.3s ease-in-out forwards;
+    animation-delay: 1.2s;
+  }
+  
+  @keyframes menu1 {
+    from {
+      opacity: 0;
+      transform: translateX(30px) rotateY(90deg);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0) rotateY(0);
+    }
+  }
+  
+
+  
+  .main li:hover .menu2 li:first-of-type {
+    animation: menu2 0.3s ease-in-out forwards;
+    animation-delay: 0.3s;
+  }
+  
+  .main li:hover .menu2 li:nth-of-type(2) {
+    animation: menu2 0.3s ease-in-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  .main li:hover .menu2 li:nth-of-type(3) {
+    animation: menu2 0.3s ease-in-out forwards;
+    animation-delay: 0.9s;
+  }
+  
+  .main li:hover .menu2 li:last-of-type {
+    animation: menu2 0.3s ease-in-out forwards;
+    animation-delay: 1.2s;
+  }
+  
+  @keyframes menu2 {
+    0% {
+      opacity: 0;
+      transform: scale(0.7);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.1);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+
+  
+  .main li:hover .menu3 li:first-of-type {
+    animation: menu3 0.3s ease-in-out forwards;
+    animation-delay: 0.3s;
+  }
+  
+  .main li:hover .menu3 li:nth-of-type(2) {
+    animation: menu3 0.3s ease-in-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  .main li:hover .menu3 li:nth-of-type(3) {
+    animation: menu3 0.3s ease-in-out forwards;
+    animation-delay: 0.9s;
+  }
+  
+  .main li:hover .menu3 li:last-of-type {
+    animation: menu3 0.3s ease-in-out forwards;
+    animation-delay: 1.2s;
+  }
+  
+  @keyframes menu3 {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+ 
+  
+  .main li:hover .menu4 li:first-of-type {
+    animation: menu4 0.3s ease-in-out forwards;
+    animation-delay: 0.3s;
+  }
+  
+  .main li:hover .menu4 li:nth-of-type(2) {
+    animation: menu4 0.3s ease-in-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  .main li:hover .menu4 li:nth-of-type(3) {
+    animation: menu4 0.3s ease-in-out forwards;
+    animation-delay: 0.9s;
+  }
+  
+  .main li:hover .menu4 li:last-of-type {
+    animation: menu4 0.3s ease-in-out forwards;
+    animation-delay: 1.2s;
+  }
+  
+  @keyframes menu4 {
+    0% {
+      opacity: 0;
+      transform: translateX(50px) rotate(-90deg);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0) rotate(0);
+    }
+  }
+  
+
+  
+  .main li:hover .menu5 li:first-of-type {
+    animation: menu5 0.3s ease-in-out forwards;
+    animation-delay: 0.3s;
+  }
+  
+  .main li:hover .menu5 li:nth-of-type(2) {
+    animation: menu5 0.3s ease-in-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  .main li:hover .menu5 li:nth-of-type(3) {
+    animation: menu5 0.3s ease-in-out forwards;
+    animation-delay: 0.9s;
+  }
+  
+  .main li:hover .menu5 li:last-of-type {
+    animation: menu5 0.3s ease-in-out forwards;
+    animation-delay: 1.2s;
+  }
+  
+  @keyframes menu5 {
+    0% {
+      opacity: 0;
+      transform: rotateX(-90deg);
+    }
+    100% {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+  
+
+  
+  .main li:hover .menu6 li:first-of-type {
+    animation: menu6 0.3s ease-in-out forwards;
+    animation-delay: 0.2s;
+  }
+  
+  .main li:hover .menu6 li:nth-of-type(2) {
+    animation: menu6 0.3s ease-in-out forwards;
+    animation-delay: 0.4s;
+  }
+  
+  .main li:hover .menu6 li:nth-of-type(3) {
+    animation: menu6 0.3s ease-in-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  .main li:hover .menu6 li:last-of-type {
+    animation: menu6 0.3s ease-in-out forwards;
+    animation-delay: 0.8s;
+  }
+  
+  @keyframes menu6 {
+    0% {
+      opacity: 0;
+      transform: scale(2);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+ 
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+  }
+
+  /* Style for items inside the flexbox container */
+  .flex-item {
+    flex: 0 0 30%; /* Set the flex item to take up 30% of the container */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+  /* Style for text under the image */
+  .flex-item p {
+    margin-top: 10px;
+  }
+
+  /* Style for the button (initially hidden) */
+  .button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #e4e2dd;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  /* Style for revealing the button on hover */
+  .flex-item:hover .button {
+    opacity: 1; 
+  color: black;}
+
+
+  .flex-item {
+    flex: 0 0 30%; /* Set the flex item to take up 30% of the container */
+    padding: 100px;
+    margin: 100px;
+    text-align: center;
+    position: relative;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+
+ 
+
+
+  #footer {
+    background-color: #1f1f1f;
+    padding: 40px;
+    color: #e4e2dd;
+    text-align: center;
+    width: 100%;
+    font-family: url(rische-demo.otf);
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-section {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .subscribe-input {
+    padding: 10px;
+    width: 200px;
+  }
+
+  .subscribe-button {
+    padding: 10px 20px;
+    background-color: #e4e2dd;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #titlef{ font-style: bold;
+  font-size: 150px;}
+
+
+
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 15%;
+    margin: 5px;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 14px;
+    color: #777;
+}
+
+.product span {
+    font-weight: bold;
+    color: #333;
+}
+.flex-container-c {
+  text-align: center;
+  padding: 20px;
+  background-color:#7f7e7e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flex-container h2 {
+  color: #ffffff;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #000000;
+  color: #fffdfd;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5c5c5c;
+}
+#header-1 {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center; font-size:x-large;
+}
+
+#section-1 {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+#at {
+
+  
+  font-size:larger;
+  font-family: url(rische-demo.otf);
+}
+
+
+
+
+@media (min-width: 768px) {
+  main {
+      width: 70%;
+      margin: 0 auto;
+  }
+} @media (max-width: 767px) {
+  main {
+    width: 70%;
+    margin: 0 auto;}
+}
