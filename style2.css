@@ -23,16 +23,13 @@ h1 {
     margin: 0;
 }
 
-
-    main {
-        flex: 1;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       
-    }
-    
+main {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .top-section {
     display: flex;
@@ -126,9 +123,8 @@ footer {
     text-align: center;
     width: 100%;
     margin-top: 3rem; 
-    flex-shrink: 0; 
+    flex-shrink: 0; /* Keeps footer from shrinking */
 }
-
 
 @media (max-width: 768px) {
     main {
